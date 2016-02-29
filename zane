@@ -1,0 +1,21 @@
+print 'I love you Zane'
+print 'no really'
+print ' :) :) '
+inp = raw_input ('Who loves you the most??')
+if inp == 'Mom':
+    print 'correct, always!!!!!'
+elif inp == 'me':
+    print 'correct!'
+elif inp == 'Jesus':
+    print "for the Bible tells you so"
+else:
+    print 'DOES NOT COMPUTE, YOU BETTER RECOGNIZE'
+inp2 = raw_input('How is school?')
+if inp2 == 'awesome':
+    print 'AWESOME!!!'
+elif inp2 == 'ok':
+    print 'let\'s try harder'
+elif inp2 == 'not so good':
+    print 'what can I do to help?'
+else:
+    print 'say it ain\'t so'
