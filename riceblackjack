@@ -155,13 +155,13 @@ def stand():
 def draw(canvas):
     # test to make sure that card.draw works, replace with your code below
     
-    canvas.draw_text("Blackjack", (100,100), 48,"Red", 'sans-serif')
+    canvas.draw_text("Blackjack", (100,100), 48,"White", 'sans-serif')
     canvas.draw_text("Score "+str(score), (350, 100), 36, "Black", 'sans-serif' )
     canvas.draw_text("Dealer", (50, 200), 36, "Black", 'sans-serif')
     canvas.draw_text(outcome, (200, 200), 28, "Black", 'sans-serif')
     canvas.draw_text("Player", (50, 400), 36, "Black", 'sans-serif')
     if in_play:
-        canvas.draw_text("Hit or Stand?", (220, 400), 30, "Red", 'sans-serif')
+        canvas.draw_text("Hit or Stand?", (220, 400), 30, "White", 'sans-serif')
     else:
         canvas.draw_text("New Deal?", (220, 400), 30, "Black", 'sans-serif')
     
@@ -173,8 +173,8 @@ def draw(canvas):
 
 
 # initialization frame
-frame = simplegui.create_frame("Blackjack", 600, 600)
-frame.set_canvas_background("Green")
+frame = simplegui.create_frame("BLACKJACK", 600, 600)
+frame.set_canvas_background("Crimson")
 
 #create buttons and canvas callback
 frame.add_button("Deal", deal, 200)
@@ -189,3 +189,5 @@ frame.start()
 
 
 # remember to review the gradic rubric
+
+
